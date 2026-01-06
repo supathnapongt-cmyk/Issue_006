@@ -16,12 +16,11 @@ Swal.fire({
         this.service.deleteData(data.id).then(() => {
           Swal.fire({
             icon: "success",
-            title: "ลบรายการเรียบร้อยแล้วนะจ๊ะๆ",
+            title: "ลบรายการเรียบร้อยแล้ว",
             text: " ",
             showConfirmButton: false,
             timer: 1500
           });
         });
       }
-
     });
